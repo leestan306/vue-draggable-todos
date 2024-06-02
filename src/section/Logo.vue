@@ -1,7 +1,7 @@
 <script lang="ts" setup>
 import { checkIfLocal } from "../utils/checkIfLocal";
 
-const logoPath = checkIfLocal() ? "/logo.png" : "/vue-draggable-todos/logo.png";
+const logoPath = checkIfLocal() ? "/logo.png" : "/logo.png";
 </script>
 
 <template>

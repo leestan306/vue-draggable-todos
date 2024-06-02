@@ -1,6 +1,6 @@
 # Vue 3 Todo Application
 
-[Todo App Preview ](https://leestan306.github.io/vue-draggable-todos)
+[Todo App Preview ](https://vue-todos-drag.netlify.app/)
 
 This is a Todo application created with Vue 3, TypeScript, and the Composition API. The application uses Tailwind CSS and DaisyUI for styling, and Vite for building and development. It also includes Vite PWA for Progressive Web App support.
 
