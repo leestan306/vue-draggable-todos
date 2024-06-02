@@ -1,1 +1,1 @@
-if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/vue-draggable-todossw.js', { scope: '/vue-draggable-todos' })})}
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/vue-draggable-todos/sw.js', { scope: '/vue-draggable-todos/' })})}
