@@ -16,8 +16,7 @@ const addTodo = (todo: { name: string; category: string }) => {
 const todos = ref<Todo[]>([]);
 watch(
   todos,
-  (value, old) => {
-    console.log(value, old);
+  (value) => {
     localStorage.setItem("todos", JSON.stringify(value));
   },
   { deep: true }
@@ -44,7 +43,6 @@ const drop = (done: boolean) => {
   // change the category of the active todo
   if (activeTodoOnDrag.value) {
     activeTodoOnDrag.value.done = done;
-    console.log(done);
     todos.value.splice(
       todos.value.findIndex((todo) => todo.id === activeTodoOnDrag.value?.id),
       1,
